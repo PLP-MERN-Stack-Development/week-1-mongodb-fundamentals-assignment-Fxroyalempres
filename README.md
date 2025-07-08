@@ -45,3 +45,31 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+# 📚 PLP Bookstore – MongoDB Week 1 Assignment
+
+This project contains MongoDB scripts for managing a fictional bookstore database as part of the PLP Data Layer Fundamentals assignment.
+
+---
+
+## 📁 Files Included
+
+| File              | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| `insert_books.js` | Script to insert 10 custom books into the `books` collection.               |
+| `queries.js`      | All MongoDB commands for CRUD, advanced queries, aggregations, and indexes. |
+| `screenshot.png`  | Screenshot of MongoDB Compass/Atlas showing your collections.               |
+| `README.md`       | This file — explains everything and how to run it.                          |
+
+---
+
+## 🛠️ How to Run the Scripts
+
+### Step 1: Launch your MongoDB shell  
+Use PowerShell, VS Code terminal, or MongoDB Compass’s shell tab.
+
+---
+
+### Step 2: Switch to the bookstore database
+```js
+use plp_bookstore

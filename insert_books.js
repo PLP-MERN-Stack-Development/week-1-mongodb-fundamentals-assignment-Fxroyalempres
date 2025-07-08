@@ -122,16 +122,16 @@ const books = [
     pages: 635,
     publisher: 'Harper & Brothers'
   },
-  {
-    title: 'Wuthering Heights',
-    author: 'Emily Brontë',
-    genre: 'Gothic Fiction',
-    published_year: 1847,
-    price: 9.99,
-    in_stock: true,
-    pages: 342,
-    publisher: 'Thomas Cautley Newby'
-  }
+{
+  title: "Before She Knew Him",
+  author: "Peter Swanson",
+  genre: "Psychological Thriller",
+  published_year: 2019,
+  price: 13.99,
+  in_stock: false,
+  pages: 320,
+  publisher: "William Morrow"
+}
 ];
 
 // Function to insert books into MongoDB
